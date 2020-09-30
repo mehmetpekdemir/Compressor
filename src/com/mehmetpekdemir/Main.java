@@ -27,7 +27,7 @@ public class Main {
 
 		byte[] decompressed = compressor.decompress(compressed);
 
-		System.out.println("is it equal : " + Arrays.equals(original, decompressed));
+		System.out.println(Arrays.equals(original, decompressed));
 
 	}
 
